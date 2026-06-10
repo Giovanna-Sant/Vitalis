@@ -1,39 +1,37 @@
 # 🛰️ VITALIS — Plataforma de Inteligência em Saúde Ambiental
 
-> Projeto desenvolvido para a disciplina de **Estruturas de Dados** — Engenharia de Software, 2º Semestre  
-> FIAP · Global Solution 2025 · 1º Semestre de 2026
+> Projeto desenvolvido para a disciplina de **Dynamic Programming** — Engenharia de Software, 3º Semestre  
+> FIAP · Global Solution 2026 · 1º Semestre de 2026
+
+### 👥 Integrantes do Grupo
+
+| Anna Clara Ruggeri da Silva - RM565553 
+| Eduardo Viudes Chorro - RM564075 
+| Giovanna da Silva Santos - RM566301 
+| Giovanna Luiza Bento - RM563203 
+| Victor Tadashi Saito Barra - RM563582 
 
 ---
 
-## 📋 Descrição do Projeto
+### 📋 Descrição do Projeto
 
 O **Vitalis** é uma aplicação em Python que simula uma plataforma de inteligência em saúde pública baseada em dados ambientais provenientes de satélites de observação da Terra. O sistema coleta, organiza e processa dados como temperatura, umidade, qualidade do ar e focos de queimadas, calculando o **Índice Global de Saúde Espacial (IGSE)** para identificar regiões em risco sanitário e emitir alertas preventivos.
 
 ---
 
-## 🎯 Objetivo da Solução
+### - Objetivo da Solução
 
 Demonstrar como dados ambientais de satélites podem apoiar a tomada de decisão em saúde pública, identificando regiões de maior risco antes que surtos e eventos sanitários se agravem — integrando estruturas de dados e algoritmos fundamentais para análise, ordenação e busca eficiente das informações.
 
----
-
-## 🌍 Tema Escolhido
+### - Tema Escolhido
 
 **Monitoramento climático, qualidade do ar e eventos extremos** aplicados à saúde pública.  
 O projeto está alinhado ao produto **Vitalis** desenvolvido na disciplina de Agile Methodology with Squad Framework.
 
----
+### - 📡 Fonte dos Dados
 
-## 📡 Fonte dos Dados
-
-Os dados utilizados foram construídos com base em referências reais de:
-
-- **INPE** (Instituto Nacional de Pesquisas Espaciais) — focos de queimadas e temperatura
-- **NASA FIRMS** (Fire Information for Resource Management System) — monitoramento de queimadas via MODIS
-- **Copernicus / Sentinel-5P** — qualidade do ar (AQI)
-- **NOAA / GOES-16** — dados meteorológicos
-- **IBGE** — coordenadas geográficas das regiões brasileiras
-
+Os dados utilizados foram construídos em sua parte simulados, com excessão dos dados de temperatura e umidade, que são fornecidos pela API da OpenWeatherAPI.
+     
 > Os dados estão armazenados no arquivo `data/regioes.csv` com 30 regiões brasileiras.
 
 ---
@@ -135,16 +133,7 @@ python main.py
 5. **Opção 4** — Ordene por IGSE e compare os algoritmos
 6. **Opção 5** — Emita alertas de risco alto
 7. **Opções 6, 7, 8** — Explore Pilha, Fila e Lista Ligada
-8. **Opção 9** — Visualize o log do sistema
 
 ---
 
-## 👥 Integrantes do Grupo
 
-| Nome | RM |
-|---|---|
-| Anna Clara Ruggeri da Silva | RM565553 |
-| Eduardo Viudes Chorro | RM564075 |
-| Giovanna da Silva Santos | RM566301 |
-| Giovanna Luiza Bento | RM563203 |
-| Victor Tadashi Saito Barra | RM563582 |
