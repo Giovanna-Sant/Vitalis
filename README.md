@@ -11,6 +11,8 @@
 | Giovanna Luiza Bento - RM563203 
 | Victor Tadashi Saito Barra - RM563582 
 
+##Link do vídeo:
+https://www.youtube.com/watch?v=yM0K2veAMwo
 ---
 
 ### 📋 Descrição do Projeto
